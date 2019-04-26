@@ -31,7 +31,7 @@ type = 其他值      校验不通过
 
 ### 1.下载程序
 
-从[瀚云GitHub](http://git.hyun.in/platform_service/offline-upload-client/src/master/src/main/tar/offline-upload-client-1.0.0.tar.gz)下载tar程序包，并解压。程序的目录结构如下：
+从[瀚云GitHub](https://raw.githubusercontent.com/hanclouds/offline-upload-client/master/offline-upload-client-1.0.0.tar.gz)下载tar程序包，并解压。程序的目录结构如下：
 
 ```
 ├── offline-upload-client
