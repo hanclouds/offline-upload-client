@@ -71,11 +71,11 @@ upload.client.parallel = 3
 # 失败重试数，达到最大重试次数后程序将自动退出
 upload.client.retrying-time = 3
 # 获取token的url链接
-upload.client.token-url = http://192.168.1.126:11010/offline/upload/getPermission
+upload.client.token-url = https://offline-upload.hanclouds.com/api/offline/upload/getPermission
 # 上传的url链接
-upload.client.upload-url = http://192.168.1.126:11010/offline/upload/save
+upload.client.upload-url = https://offline-upload.hanclouds.com/api/offline/upload/save
 # 上传完成的url链接
-upload.client.finish-url = http://192.168.1.126:11010/offline/upload/taskFinish
+upload.client.finish-url = https://offline-upload.hanclouds.com/api/offline/upload/taskFinish
 ```
 
 配置参数中必须修改的为`upload.client.path`，`upload.client.product-key`，`upload.client.upload-key`，`upload.client.upload-secret`。其中`upload.client.product-key`必须对应设备所属的productKey，`upload.client.upload-key`及`upload.client.upload-secret`可登陆[平台](https://www.hanclouds.com/)查询，如下图所示：
